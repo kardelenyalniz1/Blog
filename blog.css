@@ -1,0 +1,141 @@
+
+.container {
+    background-color: rgb(192, 192, 192);
+    width: 80%;
+    border-radius: 15px;
+}
+
+.skill {
+    background-color: rgb(116, 194, 92);
+    color: white;
+    padding: 1%;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.html {
+    width: 60%;
+}
+
+.CSS {
+    width: 50%;
+}
+
+.Javascript {
+    width: 60%;
+}
+
+.React {
+    width: 40%;
+}
+
+.Angular {
+    width: 30%;
+}
+  
+#navbar{
+    font-family: 'Major Mono Display', monospace;
+}
+
+#navbar img{
+    vertical-align:middle;
+    height: 80px;
+    border-radius: 50px;
+}
+
+#sidebar{
+    display: none;
+    width: 18%;
+    margin-top: 8px;
+    background-color: transparent;
+    font-family: "Monserrat", sans-serif;
+}
+
+#skills > h1{
+    padding-top: 10px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+
+}
+
+
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #navbar{
+        display: none;
+    }
+
+    #sidebar{
+        display: inline-block;
+        padding-top: 40px;
+        padding-left: 20px;
+        float: left;
+    }
+
+    #sidebar img{
+        vertical-align:middle;
+        height: 80px;
+        border-radius: 50px;
+    }
+
+    .menu li{
+        display: block;
+    }
+
+    #skills{
+        padding-top: 80px;
+        width: 80%;
+        float: left;
+    }
+}
+
+
+
+@keyframes loading-1 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+
+    100% {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg)
+    }
+}
+
+@keyframes loading-2 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+
+    100% {
+        -webkit-transform: rotate(144deg);
+        transform: rotate(144deg)
+    }
+}
+
+@keyframes loading-3 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+
+    100% {
+        -webkit-transform: rotate(135deg);
+        transform: rotate(135deg)
+    }
+}
+  
+@media (min-width: 1200px) {
+
+}
